@@ -397,26 +397,4 @@ La calibración establece la posición de referencia específica del usuario:
 - Mejora consistencia de mediciones
 - Requerida antes de cada sesión de grabación
 
-## 📄 Licencia
 
-Este proyecto utiliza OpenPose, que está bajo licencia específica de CMU.
-Consulta: https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/LICENSE
-
-## 👥 Contribuciones
-
-Para contribuir al proyecto:
-1. Fork del repositorio
-2. Crea una rama: `git checkout -b feature/nueva-funcionalidad`
-3. Commit cambios: `git commit -m 'Agregar nueva funcionalidad'`
-4. Push a la rama: `git push origin feature/nueva-funcionalidad`
-5. Abre un Pull Request
-
-## 📞 Soporte
-
-- **Issues**: [GitHub Issues]
-- **Documentación**: Ver `DESCARGA_MANUAL.md` para problemas de instalación
-- **Alternativa**: Usa `main.py` (MediaPipe) si tienes problemas con OpenPose
-
----
-
-**Nota Importante**: Este sistema requiere descargar ~200 MB de modelos de OpenPose. Si prefieres una solución sin descargas adicionales, usa `main.py` que utiliza MediaPipe.
